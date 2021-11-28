@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 500;
+var winningScore = 300;
 
 // add collectable items to the game
 function addItems() {
@@ -27,7 +27,7 @@ function addItems() {
   createItem(370,500,'poison');
   createItem(100, 375, 'poison');
   createItem(125, 50, 'star');
-  createItem(50, 300, 'star');
+  createItem(250, 300, 'star');
   createItem(250, 100, 'star');
 }
 
