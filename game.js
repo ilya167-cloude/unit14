@@ -27,7 +27,7 @@ function addItems() {
   createItem(370,500,'poison');
   createItem(100, 375, 'poison');
   createItem(125, 50, 'star');
-  createItem(250, 300, 'star');
+  createItem(250, 500, 'star');
   createItem(250, 100, 'star');
 }
 
@@ -58,7 +58,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(750, 400, 'badge');
+  var badge = badges.create(250, 50, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
